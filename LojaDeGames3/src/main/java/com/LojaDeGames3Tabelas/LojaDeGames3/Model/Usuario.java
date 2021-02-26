@@ -18,11 +18,11 @@ public class Usuario {
 	private Long id;
 	
 	@NotNull
-	@Size(min=10, max=20)
+	@Size(min=2, max=20)
 	private String nome; 
 	
 	@NotNull
-	@Size(min=10, max=20)
+	@Size(min=2, max=20)
 	private String senha;
 
 	public Long getId() {
